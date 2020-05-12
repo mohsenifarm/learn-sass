@@ -1,0 +1,131 @@
+@import "base/base";
+@import "base/animation";
+@import "base/typography";
+@import "base/utilities";
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "components/button";
+
+@import "layout/header";
+@import "layout/grid";
+
+@import "pages/home";
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+linear gradient();
+ability to set from which side to where,
+form color to color,
+HINT: this comes in background-image property in css*
+//	//	//
+clip-path:
+clip-path: polygon(x y, x y, x y, x y)
+each x y define a exact coordinate in the page in this example i have 4 side
+
+// // //
+ text-transform: uppercase
+
+// // //
+position:
+relative is for parent 
+absolute is for child
+we can define how many px from which direction
+for example:
+position absolute;
+	top: …px;
+	left: …px;
+i can define transform: translate(x, y)
+this target the element from exact coordinate
+// // //
+
+CSS ANIMATION USING THE @key frames AND THE ANIMATION PROPERTY:
+
+@keyframes nameOfKeyfarames {
+	0% {
+		start
+	    }
+
+	i can write any % at the middle 
+	100% {
+		end	
+	    } 
+}
+// // //
+
+opacity: 
+start from 0 to 1
+0=>hidden
+1=>full visible
+
+// // //
+
+transform: translatex()
+means just at the x direction
+
+in transform i can put rotate(...deg)
+deg means degree
+// // //
+animation-delay: ...s;
+means it's gone starts aftre ...s
+// // //
+animation-iteration-count: 3;
+means its gone iterate for 3 times
+// // //
+
+animation-timing-function: ease-out;
+eae-out start is faster than end
+ease-in end in faster than start
+
+// // //
+backface-visibility: hidden;
+for refuse the bugs like shake in animation
+and whe have to put it in sub parent element i meant if we have span in h1 
+an we want to refuse the bugs in span
+we should put this propertt in h1
+
+#######
+whats pseudo elements and pseudo-classes are?
+how and use ::after pseudo-element?
+how to create a creative hover animation effect using transition property?
+
+**A pseudo-element is a keyword added to a selector
+ that lets you style a specific part of the selected element(s)
+
+ ::after is a pseudo-element which allows you to insert content onto
+  a page from CSS (without it needing to be in the HTML)
+
+$$$
+.btn:link,
+.btn:visited {
+    
+}
+it means when the btn is link and when the btn is visited
+
+
+////
+transition: all .2s
+is for animation property
+all means all areas
+.2s means during the seconds
+
+
+//////
+box-shadow: 0 10px 20px rgba(0,0,0,.2);
+0=>x
+10px=>y
+20px blur
+
+*/
